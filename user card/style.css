@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 800px;
+    height: 500px;
+    border: solid;
+    border-color: rgb(110, 109, 109);
+    /* display: flex; */
+    margin: 100px 50px 300px 500px;
+    box-shadow: 3px 3px 3px;
+    position: fixed;
+}
+.blue{
+    background-color: aqua;
+    height: 150px;
+    display: block;
+}
+.profile{
+    position: relative;
+    bottom: 80px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-radius: 50%;
+    padding: 5px;
+    border-color: beige;
+}
+.white{
+    padding: 20px;
+
+}
+.asl{
+    vertical-align: top;
+    position: relative;
+    top: -100px;
+    padding: 10px;
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 20px;
+    vertical-align: top;
+    font-size: 50px;
+    display: block;
+    margin: 0px 0px 10px;
+}
+.gps{
+    width: 15px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: -5px;
+}
+.address{
+    display: inline-block;
+    font-weight: lighter;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    position: relative;
+    left: 35px;
+    top: -5px;
+}
+.content{
+    margin: 10px 0px 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: block;
+}
+.gear{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 10px 15px;
+    display: inline-block;
+}
+.link{
+    display: flex;
+    align-items: center;
+}

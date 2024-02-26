@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    background-color:slategray;
+}
+.nav-title{
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+    margin: 20px;
+}
+.nav-links{
+    color: antiquewhite;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-left: 1380px;
+}
+.active{
+font-weight: bold;
+margin: 0px 10px 0px 10px;
+}
+.btn{
+display: inline;
+margin: 0px 10px 0px ;
+background-color: rgb(67, 166, 190);
+color: aliceblue;
+}
